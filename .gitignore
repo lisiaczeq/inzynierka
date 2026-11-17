@@ -1,0 +1,73 @@
+# Środowiska wirtualne
+venv/
+.venv/
+env/
+ENV/
+
+# Pliki tymczasowe i cache Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Zbiory danych (np. RAF-DB w katalogu archive/)
+archive/
+dataset/
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Wagi modeli i checkpointy PyTorch / ONNX
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.safetensors
+checkpoints/
+models/
+weights/
+
+# Logi treningowe, TensorBoard, Weights & Biases
+runs/
+logs/
+wandb/
+*.log
+events.out.tfevents.*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Zmienne środowiskowe i konfiguracje lokalne
+.env
+.env.local
+
+# IDE i edytory
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pliki systemowe (Windows / macOS / Linux)
+Thumbs.db
+Desktop.ini
+.DS_Store
